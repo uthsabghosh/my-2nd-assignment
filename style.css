@@ -1,0 +1,683 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #1A0B2E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* Navbar style */
+.container-nav {
+    width: 100%;
+
+
+
+}
+
+.navbar {
+    height: 92px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 200px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+.techwave {
+    font-size: 35px;
+    color: white;
+
+}
+
+.bt:hover {
+    background-color: #00FF88;
+    border-radius: 5px;
+}
+
+.wave {
+    color: #DB489F;
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+    color: white;
+
+    list-style: none;
+
+}
+
+.btn {
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    border-radius: 40px;
+    padding: 12px;
+    font-size: 1rem;
+    color: #FFFFFF;
+    width: 135px;
+    height: 44px;
+
+}
+
+.btn-1 {
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    border-radius: 40px;
+    padding: 12px;
+    font-size: 1rem;
+    color: #FFFFFF;
+    width: 201px;
+    height: 44px;
+}
+
+.nav-btn {
+    display: flex;
+}
+
+/* banner section style */
+
+.banner-section {
+    width: full;
+    height: 760px;
+    background-image: url("../assets/hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.preant-img {
+    position: relative;
+    margin-top: 100px;
+
+}
+
+.microphone {
+    position: absolute;
+}
+
+.new {
+    position: relative;
+    top: -140px;
+    margin-left: -90px;
+    background-color: #00FF88;
+    border-radius: 16px;
+    padding: 8px;
+    font-size: 18px;
+    font: bold;
+    width: 75px;
+    height: 37px;
+}
+
+.tech-text {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    font-size: 60px;
+}
+
+.banner-description {
+    color: white;
+    margin-top: 8px;
+}
+
+.subscribe {
+    display: flex;
+    gap: 16px;
+
+}
+
+.btn-subscribe {
+    border-radius: 40px;
+    padding: 12px;
+    font-size: 1rem;
+    color: green;
+    background: none;
+}
+
+.banner-btn {
+    margin-top: 24px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+
+}
+
+
+/* about section style */
+.about-section {
+    text-align: center;
+
+}
+
+.border {
+    border-bottom: 2px solid #3116e0;
+    margin: 80px 200px;
+}
+
+.section-discription h1 {
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 48px;
+}
+
+.section-discription p {
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+
+.dashbord {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 120px;
+
+}
+
+.dashbord h1 {
+    color: #00FF88;
+    font-size: 48px;
+}
+
+.dashbord p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 16px;
+}
+
+.dashbord-div {
+    text-align: center;
+}
+
+/* techwave style desing  */
+.techWave>* {
+    background-color: #351165;
+    padding: 40px;
+    border-radius: 40px;
+
+}
+
+.audio {
+    grid-area: audio;
+}
+
+.audio h3 {
+    width: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.audio p {
+    width: 400px;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+
+.device {
+    grid-area: device;
+}
+
+.device h3 {
+    width: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.device p {
+    width: 400px;
+    font-size: 11px;
+    color: #FFFFFF;
+
+}
+
+.global {
+    grid-area: global;
+}
+
+.global h3 {
+    width: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.global p {
+    width: 400px;
+    font-size: 11px;
+    color: #FFFFFF;
+}
+
+.enterview {
+    grid-area: enterview;
+}
+
+
+
+
+
+.resource {
+    grid-area: resource;
+}
+
+.resource h3 {
+    width: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.resource p {
+    width: 400px;
+    font-size: 11px;
+    color: #FFFFFF;
+}
+
+.techWave {
+    display: grid;
+    gap: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    grid-template-areas:
+        "audio device device "
+        "audio global global"
+        " enterview enterview resource "
+
+    ;
+
+}
+
+.about{
+    margin-top:  40px;
+}
+
+.parent-container {
+    background-color: #230E3D;
+    padding: 80px;
+}
+
+.choose {
+    text-align: center;
+    font-size: 48px;
+    padding: 80px;
+
+    font: bold;
+    color: #FFFFFF;
+
+
+}
+
+
+
+
+/* featured episodes style */
+
+.featured-container {
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+}
+
+
+
+.featured-container h1 {
+    text-align: center;
+    font: bold;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    gap: 30px;
+}
+
+
+
+.container-box {
+    border-radius: 24px;
+    background-color: #250D44;
+}
+
+.container-box iframe {
+    width: 380px;
+    height: 214px;
+    border-radius: 20px;
+
+}
+
+
+
+.container h3 {
+    font-size: 22px;
+    color: #FFFFFF;
+    padding: 24px;
+
+}
+
+.container-box p {
+    font-size: 16px;
+    color: gray;
+    padding: 24px;
+}
+
+.container img {
+    color: white;
+}
+
+.clock {
+    display: flex;
+    font-size: 20px;
+    gap: 4px;
+    padding: 24px;
+
+}
+
+.min {
+    color: #00FF88;
+
+}
+
+
+/* meet the host desing */
+.host-container {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 120px;
+    border-radius: 15px;
+    background-color: #533C72;
+}
+
+.container {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+
+}
+
+.host-desingh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    width: 1350px;
+    height: 280px;
+
+
+}
+
+.host-text {
+    display: grid;
+
+}
+
+.social-link {
+    width: 184px;
+    height: 40px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+
+}
+
+.alex {
+    margin-bottom: 9px;
+    font-size: 30px;
+}
+
+
+/* footer section style */
+.section {
+    background-image: url("../assets/footer-bg.png");
+    width: full;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 100%; */
+    height: 412px;
+}
+
+.container-h3 {
+    font-size: 48px;
+    width: 410px;
+    height: 60px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.footter {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+
+.copy-right {
+    color: #FAFAFA;
+    margin-top: 30px;
+}
+
+/* nav menu responsive  */
+@media (min-width:576px ) and (max-width:1970px) {
+    .menu{
+     display: none;   
+    }
+
+}
+
+/* --- Mobile Responsive Styles --- */
+
+@media (max-width: 576px) {
+        .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .container-box iframe {
+        width: 565px;
+        height: 369px;
+        border-radius: 20px;
+    }
+        .nav-links {
+        display: none; 
+    }
+    .nav-btn {
+        display: none; 
+    }
+
+    .navbar {
+        padding: 16px 20px;
+        flex-direction: row; 
+        justify-content: space-between;
+        height: 70px;
+    }
+
+    /* .navbar::after {
+        font-weight: 900;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+    }
+   */
+
+    /* Banner Responsive */
+    .banner-section {
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .tech-text {
+        font-size: 36px; 
+    }
+
+    .banner-description {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .banner-btn {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .preant-img {
+        margin-top: 50px;
+    }
+
+    /* About & Dashboard Responsive */
+    .border {
+        margin: 40px 20px;
+    }
+
+    .section-discription h1 {
+        font-size: 28px;
+    }
+
+    .dashbord {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px;
+    }
+
+    .dashbord h1 {
+        font-size: 32px;
+    }
+
+    /* Why Choose TechWave (Grid Area Fix) */
+    .techWave {
+        grid-template-areas: 
+            "audio"
+            "device"
+            "global"
+            "enterview"
+            "resource";
+        grid-template-columns: 1fr; 
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .audio p, .device p, .global p, .resource p {
+        width: 100%; 
+    }
+
+    .choose {
+        font-size: 28px;
+        padding: 40px 20px;
+    }
+
+    .parent-container {
+        padding: 20px 0;
+    }
+
+    /* Featured Episodes Responsive */
+    .featured-container h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        grid-template-columns: 1fr; 
+        padding: 0 20px;
+    }
+
+    .container-box iframe {
+        width: 100%; 
+        height: 200px;
+    }
+
+    /* Meet the Host Responsive */
+    .host-container {
+        margin-left: 20px;
+        margin-right: 20px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .host-desingh {
+        flex-direction: column; 
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .social-link {
+        justify-content: center;
+        margin: 20px auto;
+    }
+
+    /* Footer Responsive */
+    .section {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .container-h3 {
+        width: 100%;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .icon {
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+}
