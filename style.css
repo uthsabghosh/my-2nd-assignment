@@ -95,7 +95,7 @@ body {
 .banner-section {
     width: full;
     height: 760px;
-    background-image: url("../assets/hero-bg.png");
+    background-image: url("./assets/hero-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -478,7 +478,7 @@ body {
 
 /* footer section style */
 .section {
-    background-image: url("../assets/footer-bg.png");
+    background-image: url("./assets/footer-bg.png");
     width: full;
     background-size: cover;
     background-repeat: no-repeat;
